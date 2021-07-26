@@ -25,3 +25,17 @@ name = "Ali Neaz"
 print(name[-1:-2])  # not working or garage wrong method
 print(name[:8])  # first index will automatically be 0 though i havent specified
 print(name[0:])  # first is specified last will be then lenth
+
+
+c = name[-4:-1]  # is same as name[4:7]
+print(c)
+
+# _____________________slicing valu with skip value _____________________
+name = "Ali Neaz"
+# ______012345678
+d = name[0:8:2]  # printing every second indeces
+print(d)
+d = name[0::2]
+e = name[0::3]
+print(d)
+print(e)
